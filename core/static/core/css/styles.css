@@ -1,0 +1,74 @@
+/*barra nav*/
+nav{ 
+    background-color: green;
+    height: 60px;
+}
+.img-logo img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    margin-top: 5px;
+}
+
+.divisor-ul-right ul{
+    margin-right: 25px;
+}
+.nav a{
+    margin-top: 8px;
+    margin-right: 20px;
+    color: var(--black);
+}
+a:hover{
+    color:blue;
+}
+/*carrusel*/
+.carousel {
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right:250px;
+    margin-bottom: 50px;
+}
+/* parrafo de texto */
+.container-p{
+    margin-right: 350px;
+    margin-left: 350px;
+}
+.container-p p{
+    text-align: center;
+
+}
+/* pie de pagina */
+.foot-page{
+    background-color: green;
+    margin-top: 100px;
+    height: 200px;
+}
+.foot-page div{
+    display: inline-flex;
+}
+.contact-container .o-list{
+    padding-top: 40px;
+}
+.o-list li{
+    list-style: none;
+    padding-top: 5px;
+}
+.title-contact, .title-social{
+    font-weight: bold;
+}
+.container-social img{
+    width:25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.container-social .o-list{
+    margin-left: 70px;
+}
+.container-social .two-three{
+    margin-left: 10px;
+}
+/* formulario */
+form .form-group{
+    margin-top: 40px;
+}
